@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Quattrocento', serif;
+}
+.w{
+    margin: 0 auto;
+    width: 1200px;
+}
+#im1{
+    width: 60px;
+    margin: 0 27px;
+}
+.a1{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 10px;
+    text-align: left;
+   
+}
+.a2{
+    text-decoration: none;
+    color: #fff;
+    font-size: 19px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+#zd1{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+
+}
+#zd2{
+    width: 30%;
+    height: 150px;
+    margin: 4px 41px;
+  
+}
+#zd3{
+    width: 38%;
+    height: 150px;
+    margin: 64px 0;
+  
+}
+#zd4{
+    width: 32%;
+    height: 150px;
+}
+#hd{
+    width: 100%;
+    height: 150px;
+    background-color:#032bfb; ;
+}
+#p1{
+    color: #fff;
+    
+}
+#p2{
+    color: #fff;
+    text-align: right;
+    /* margin: 10px; */
+    margin: 66px 35px;
+}
+#im2{
+    width: 35px;
+    /* width: 45px; */
+    padding: 0 14px;
+    margin: -8px 0;
+}
+.bt1{
+    padding: 11px 13px;
+    font-size: 18px;
+    border: none;
+    background-color: #ffca00 ;
+    color: #000;
+}
+.bt1:hover{
+    background-color: #c49d03;
+    
+}
+.a3{
+    text-decoration: none;
+}
+#ft{
+    width: 100%;
+    height: 180px;
+    background-color:#032bfb; ;
+}
+#p3{
+    text-align: right;
+    color: #fff;
+    font-weight: bold;
+}
+#p4{
+    text-align: right;
+    font-weight: bold;
+    color: #fff;
+    padding: 5px;
+}
+#a4{
+    text-decoration: none;
+    color:#ffca00;
+    font-weight: bold;
+}
+#d14{
+    margin: 29px 30px;
+}
+#d15{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+.d16{
+    width: 50%;
+    height: 120px;
+}
+.im3{
+    width: 43px;
+    padding: 5px;
+}
+#d17{
+    padding: 22px 111px;
+}
+
