@@ -55,6 +55,22 @@ if (isset($_POST['submit'])) {
         form{
             padding: 30px;
         }
+        .zd3{
+            text-align: center;
+        }
+        #zh21{
+            text-transform: uppercase;
+        }
+        .in1{
+            border: none;
+            padding: 10px 63px;
+        }
+        .texta1{
+            border: none;
+        }
+        .zp1{
+            padding: 10px;
+        }
      
 
     </style>
@@ -64,27 +80,27 @@ if (isset($_POST['submit'])) {
             <div class="zd1">
                <div class="zd2">
                 <form action="contact-us.php" method="post">
-                    <p >
+                    <p class="zp1">
                         <label for="">Name</label>
                         <br>
-                        <input type="text" name="name">
+                        <input type="text" name="name" class="in1">
                     </p>
-                    <p>
+                    <p class="zp1">
                         <label for="">Email</label>
                         <br>
-                        <input type="email" name="email" required>
+                        <input type="email" name="email" class="in1">
                     </p>
-                    <p>
+                    <p class="zp1">
                         <label for="">Gem Code</label>
                         <br>
-                        <input type="text" name="gem">
+                        <input type="text" name="gem" class="in1">
                     </p>
-                    <p>
+                    <p class="zp1">
                         <label for="">Message</label>
                         <br>
-                        <textarea name="" id="" cols="40" rows="5" name="message"></textarea>
+                        <textarea name="" id="" cols="40" rows="5" name="message" class="texta1"></textarea>
                     </p>
-                    <div>
+                    <div class="zp1">
                         <button type="submit" name="submit">Send</button>
                     </div>
                </form>
@@ -100,14 +116,14 @@ if (isset($_POST['submit'])) {
                ?> -->
                </div>
                <div class="zd2" >
-                   <div style="text-align: center;">
+                   <div class="zd3">
                        <img src="images/logo.svg" alt="sahan-gems-logo" width="350px">
                    </div>
-                   <div>
-                       <h2 style="text-align: center;">
+                   <div class="zd3">
+                       <h2 id="zh21">
                            Sahan Gems
                        </h2>
-                       <p style="text-align: center;">
+                       <p>
                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt perferendis velit consectetur quam hic. Minus minima veritatis aliquid labore nostrum assumenda non modi nulla accusantium corrupti? Et aspernatur architecto ex?
                        </p>
                    </div>
