@@ -39,23 +39,26 @@ if (isset($_POST['submit'])) {
     <style>
        #zse1{
            width: 100%;
-           height: 600px;
-           background-color: brown;
+           height: 550px;
+           background-color: rgb(198, 239, 252);
        }
         .zd1{
             width: 100%;
-            height: 600px;
+            height: 550px;
             display: flex;
             justify-content: space-between;
-            background-color: blue;
+           
         }
         .zd2{
             width: 45%;
-            height: 600px;
-            background-color: aqua;
+            height: 550px;
+            
+        
         }
+     
         form{
-            padding: 30px;
+            padding: 80px;
+            background:aquamarine;
         }
         .zd3{
             text-align: center;
@@ -65,7 +68,7 @@ if (isset($_POST['submit'])) {
         }
         .in1{
             border: none;
-            padding: 10px 63px;
+            padding: 10px 73px;
         }
         .texta1{
             border: none;
@@ -80,7 +83,7 @@ if (isset($_POST['submit'])) {
     <section id="zse1">
         <div class="w">
             <div class="zd1">
-               <div class="zd2">
+               <div class="zd2" >
                 <form action="contact-us.php" method="post">
                     <p class="zp1">
                         <label for="">Name</label>
