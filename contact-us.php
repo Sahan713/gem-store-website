@@ -1,3 +1,5 @@
+
+
 <?php
 
 // checking if the form is submit
@@ -32,7 +34,7 @@ if (isset($_POST['submit'])) {
 
 
 <?php include 'INC_HEAD.php';?>
-    <link rel="stylesheet" href="css.css">
+    <!-- <link rel="stylesheet" href="css.css"> -->
     <title>Document</title>
     <style>
        #zse1{
@@ -101,7 +103,7 @@ if (isset($_POST['submit'])) {
                         <textarea name="" id="" cols="40" rows="5" name="message" class="texta1"></textarea>
                     </p>
                     <div class="zp1">
-                        <button type="submit" name="submit">Send</button>
+                        <button class="bt1" type="submit" name="submit">Send</button>
                     </div>
                </form>
                <!-- <?php
